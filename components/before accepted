@@ -1,0 +1,73 @@
+{
+    "objects": [
+        {
+            "id": "42a965f4-15d1-4a41-8388-a698f4ca782a",
+            "name": "joseph p waine",
+            "number": "3049",
+            "status": "Open",
+            "sub_total": "1.00",
+            "tax_total": "0.10",
+            "total": "1.10",
+            "mandatory_tip_amount": "0.00",
+            "open_time": "2021-02-05T09:51:04-08:00",
+            "close_time": null,
+            "guest_count": 1,
+            "type": "To Go",
+            "type_id": 6,
+            "taxed_type": "exclusive",
+            "autograt_tax": "0.00",
+            "trading_day_id": "1c8d7919-8fa5-4f5a-882f-1ca7e4d1b666",
+            "updated_at": "2021-02-05T17:51:42.000Z",
+            "items": [
+                {
+                    "id": "135ac766-00c9-4bf9-9a46-2a120ba66ac7",
+                    "check_id": "42a965f4-15d1-4a41-8388-a698f4ca782a",
+                    "name": "Side of Harra Ketchup (dinner)",
+                    "date": "2021-02-05T09:51:05-08:00",
+                    "category_id": "5f694913-6cca-470d-bda1-6055e8b05375",
+                    "item_id": "5af45fec-fc78-4955-a9ba-04dc8de94486",
+                    "quantity": 1,
+                    "price": "1.00",
+                    "pre_tax_price": "1.00",
+                    "regular_price": "1.00",
+                    "cost": "0.00",
+                    "tax": "0.10",
+                    "comp_total": "0.00",
+                    "comp_tax": "0.00",
+                    "check_items_tax_rates": []
+                }
+            ],
+            "non_revenue_total": 0,
+            "outstanding_balance": "1.10",
+            "payments": [
+                {
+                    "id": "de972f39-0631-4b27-8b4d-f326645a73b3",
+                    "check_id": "42a965f4-15d1-4a41-8388-a698f4ca782a",
+                    "amount": "1.10",
+                    "tip_amount": "0.00",
+                    "date": "2021-02-05T09:51:05-08:00",
+                    "cc_name": null,
+                    "last_4": null,
+                    "auth_code": null,
+                    "trading_day": "1c8d7919-8fa5-4f5a-882f-1ca7e4d1b666",
+                    "tips_withheld": "0.00",
+                    "type": "Online Order Integrated",
+                    "tender_description": "Generic Online Ordering Integrated"
+                }
+            ],
+            "online_order": {
+                "id": "kc31jbghz4b_1yrk81wqoek_ag1i1efgmk5",
+                "time_placed": "2021-02-05T09:50:36-08:00",
+                "source": "Generic Online Ordering",
+                "confirmation_code": "mamnoon-8kgql6hlasd"
+            }
+        }
+    ],
+    "meta": {
+        "offset": 0,
+        "limit": 500,
+        "total_count": 1,
+        "previous": null,
+        "next": null
+    }
+}

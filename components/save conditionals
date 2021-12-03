@@ -1,0 +1,80 @@
+
+
+
+
+<!-- BEGINNING OF ORIGINAL2 -->
+<!-- BEGINNING OF ORIGINAL2 -->
+<!-- BEGINNING OF ORIGINAL2 -->
+
+<!-- <h1>begin new filter for use when open</h1> -->
+ <!-- beggin 00 -->
+
+ <template v-if="valid && !preOrderToggleState">
+<template v-for="item in upserveSections">
+  <!-- beggin 0 -->
+  <template v-if="noFiltering">
+    <!-- beggin 1 -->
+                                                    {{item.name.replace('- To Go', '').replace('To Go', '')}}
+
+      <!-- end 1 -->
+  </template>
+  <!-- end 0 -->
+</template>
+</template>
+<!-- end 00 -->
+
+<!--// <h1>end new</h1>-->
+
+
+
+  
+
+
+
+<!-- <h1>begin new filter for use when open</h1> -->
+ <!-- beggin 00 -->
+
+ <template v-if="!valid">
+
+<template v-for="item in upserveSections">
+  <!-- beggin 0 -->
+  <template v-if="noFiltering">
+         {{item.name.replace('- To Go', '').replace('To Go', '')}}
+                                             </template>
+<template v-else>
+                  {{item.name.replace('- To Go', '').replace('To Go', '')}}
+
+</template>
+
+</template>
+</template>
+<template v-if="preOrderToggleState">
+   <template v-if="upserveSections.length === 0">
+     <div class="container text-center pt20">
+       Loading...
+     </div>
+     </template>
+         <template v-else>
+            <template v-for="item in upserveSections">
+            <template v-else>
+
+    <template v-if="noFiltering && item.name !== 'featured item'">
+    <template v-if="item.timing_mask === item.timing_mask">
+                                    {{item.name.replace('- To Go', '').replace('To Go', '')}}
+                                </template>
+      </template>
+      <template v-else>
+         <template v-if="item.timing_mask === null">
+                  {{item.name.replace('- To Go', '').replace('To Go', '')}}
+                </template>
+                <template v-else>
+         {{item.name.replace('- To Go', '').replace('To Go', '')}}
+       </template>
+  </template>
+  </template>
+  </template>
+  </template>  </template>
+<!-- END OF ORIGINAL 2-->
+<!-- END OF ORIGINAL 2-->
+<!-- END OF ORIGINAL 2-->
+<!-- END OF ORIGINAL 2-->

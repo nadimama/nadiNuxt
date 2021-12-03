@@ -1,0 +1,44 @@
+{
+  "name": "nadiNuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "core-js": "^3.15.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "nuxt": "^2.15.7",
+    "postscribe": "^2.0.8",
+    "sass": "^1.44.0",
+    "vue-aspect-ratio": "^0.1.1",
+    "vue-jwt-decode": "^0.1.0",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-select": "^3.16.0",
+    "vue-sweetalert2": "^5.0.2",
+    "vue-template-es2015-compiler": "^1.9.1",
+    "vuejs-datepicker": "^1.6.2",
+    "vuex-persist": "^3.1.3"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "node-sass": "^6.0.1",
+    "prettier": "^2.3.2",
+    "sass-loader": "^10.1.1",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

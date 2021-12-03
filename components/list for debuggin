@@ -1,0 +1,49 @@
+<!-- list goes here -->
+<div class=""> 
+<h1> start list</h1> 
+       <template>
+       <div>
+       <!-- BEGINNING OF ORIGINAL -->
+<!-- BEGINNING OF ORIGINAL -->
+ <template v-if="valid && !preOrderToggleState">
+  <template v-for="item in upserveSections">
+    <template v-if="noFiltering">
+        <template v-if="item.timing_mask && currentlyAvailable(item.timing_mask.start_time,item.timing_mask.end_time,item.timing_mask.rules,nowDate,nowTime) ||!item.timing_mask">
+          {{ item.name }}
+        </template>
+    </template>
+  </template>
+</template>
+ <template v-if="!valid">
+<template v-for="item in upserveSections">
+  <template v-if="noFiltering">{{ item.name }}</template>
+  <template v-else>
+    <template v-if="item.name !== 'featured item' && item.timing_mask && currentlyAvailable(item.timing_mask.start_time,item.timing_mask.end_time,item.timing_mask.rules,selectedDate,selectedTime) ||!item.timing_mask">
+      {{ item.name }}
+    </template>
+  </template>
+</template>
+</template>
+<!--<template v-if="preOrderToggleState">
+            <template v-for="item in upserveSections">
+ <template v-if="noFiltering && item.name !== 'featured item'">
+  <template v-if="item.timing_mask === item.timing_mask">
+    {{ item.name }}
+  </template>
+</template>
+<template v-else>
+  <template v-if="item.timing_mask === null">
+    {{ item.name }}
+  </template>
+  <template v-else>
+    <template v-if="currentlyAvailable(item.timing_mask.start_time, item.timing_mask.end_time, item.timing_mask.rules, selectedDate, selectedTime)">{{ item.name }}</template>
+  </template>
+</template>
+            </template>-->
+<!-- END OF ORIGINAL -->
+<!-- END OF ORIGINAL -->
+</div>
+       </template>
+<h1> start list</h1> 
+</div> 
+<!-- end list -->
